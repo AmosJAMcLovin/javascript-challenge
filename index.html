@@ -37,7 +37,36 @@
                     <ul class="list-group" id="filters">
                       <li class="filter list-group-item">
                         <label for="date">Enter a Date</label>
-                        <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
+                        <input class="form-control" id="datetime" type="text" placeholder="1/1/2010">
+                      </li>
+                      <li class="filter list-group-item">
+                        <label for="city">Enter a City</label>
+                        <input class="form-control" id="city" type="text" placeholder="st. louis">
+
+                      </li>
+
+                      <li class="filter list-group-item">
+                        <label for="state">Enter a State</label>
+                        <input class="form-control" id="state" type="text" placeholder="ca">
+
+                      </li>
+
+                      <li class="filter list-group item">
+                        <label for="country">Enter a Country</label>
+                        <input class="form-control" id="country" type="text" placeholder="us">
+
+                      </li>
+
+                      <li class="filter list-group-item">
+                        <label for="shape">Enter a Shape</label>
+                        <input class="form-control" id="shape" type="text" placeholder="circle">
+                        <button id="submit" type="button" class="btn btn-success">Filter</button>
+                        <button style="background:grey;"class="btn btn-success" type="button" id="clear">Clear</button>
+                      </li>
+                    <li>
+
+                    </li>
+
                       </li>
                     </ul>
                   </div>
@@ -52,13 +81,13 @@
             <table id="ufo-table" class="table table-striped">
               <thead>
                 <tr>
-                  <th class="table-head">Date</th>
-                  <th class="table-head">City</th>
-                  <th class="table-head">State</th>
-                  <th class="table-head">Country</th>
-                  <th class="table-head">Shape</th>
-                  <th class="table-head">Duration</th>
-                  <th class="table-head">Comments</th>
+                  <th class="table-success">Date</th>
+                  <th class="table-success">City</th>
+                  <th class="table-success">State</th>
+                  <th class="table-success">Country</th>
+                  <th class="table-success">Shape</th>
+                  <th class="table-success">Duration</th>
+                  <th class="table-success">Comments</th>
                 </tr>
               </thead>
               <tbody></tbody>
